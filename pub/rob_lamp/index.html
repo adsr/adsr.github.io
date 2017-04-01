@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>R.O.B. LED Lamp</title>
+</head>
+<body>
+<div style="width: 42em;">
+
+<h1>R.O.B. LED Lamp</h1>
+
+<p><a href="rob_lamp_022.jpg"><img src="rob_lamp_022.jpg" width="232" height"278" alt="R.O.B. LED lamp" /></a></p>
+
+<p><i>January 2009</i></p>
+
+<p>While cleaning out the closet under my basement steps, I dug up the original box for my NES from when I was a kid. The box itself was cool find, but what I found inside was even cooler: a <a href="http://en.wikipedia.org/wiki/R.O.B.">R.O.B.</a>! I&apos;d completely forgot about these, and I was struck with such joy and nostalgia that I decided I was going to keep it on my desk as a decorative ornament.</p>
+
+<p>The R.O.B. sat on my desk for a few weeks until I got the good / bad idea of &quot;bringing it back to life&quot; by modding it into a lamp. Illuminating the two &quot;eyes&quot; seemed like a cool idea, so I started disassembling it to get a rough idea of how to make it work. After some unscrewing, I peeked into the head compartment and saw enough space for a 9-volt battery. I also saw that an LED could probably fit in between the plastic lens and the &quot;eye socket&quot;. This was enough to convince me to go forward.</p>
+
+<h4>Construction</h4>
+
+<p>This project was easier to conceptualize than to execute. Figuring out the LED circuit was as easy as punching in some values in <a href="http://led.linear1.org/led.wiz">this calculator</a>. The hard part was working with delicate components in tiny spaces without breadboard. Drilling a few holes would have made things easier, but I didn&apos;t want to risk ruining the R.O.B..</p>
+
+<p>Components:</p>
+
+<ul>
+<li>Two bright LEDs (rated at a few thousand mcd)</li>
+<li>Resistor(s) to limit current from 9-volt</li>
+<li>A tiny (3 to 5mm) single pole latching toggle switch to fit through a screw hole</li>
+<li>A 9-volt battery clip</li>
+</ul>
+
+<p>I ended up using 2 <a href="http://www.superbrightleds.com/specs/w3mm_specs.htm">RL3-W3030</a> white 3mm LEDs in series (which required a single 100 ohm resistor) and <a href="http://www.amazon.com/Parts-Express-SUB-MINI-TOGGLE-SWITCH/dp/B0002ZPBMK/ref=sr_1_3?ie=UTF8&s=electronics&qid=1230936882&sr=1-3">this SPST toggle switch</a>.</p>
+
+<p>Schematic:</p>
+<p><img src="rob_lamp_schematic.gif" alt="R.O.B. LED Lamp schematic" width="275" height="21" /><br/>
+or: +9V, switch, LED, LED, resistor, &ndash;9V
+</p>
+
+<h4>Steps</h4>
+
+<ol>
+
+<li>First, I cut out a <a href="rob_lamp_002.jpg">piece of cardboard</a> to fit inside the eye socket. I colored it with a black marker to make it less reflective. The cardboard is going to act as a breadboard-esque base for the LED part of the circuit, and it&apos;s also going to keep the <a href="rob_lamp_003.jpg">LEDs in the center</a> of each eye.<br/>&nbsp;</li>
+
+<li>I poked the LED leads through the cardboard. Using electrical tape, I did my best to <a href="rob_lamp_006.jpg">isolate and insulate the leads</a> from each other to prevent short circuits. I tried to organize them in a fashion that would be the easiest and cleanest to solder.<br/>&nbsp;</li>
+
+<li>I <a href="rob_lamp_007.jpg">soldered the LEDs together</a>, and then <a href="rob_lamp_008.jpg">extended the anode of the second LED</a> using some hook-up wire so that it would reach the rest of the circuit. The solder joints came out sort of messy but not terrible.<br/>&nbsp;</li>
+
+<li>At this point I did a <a href="rob_lamp_011.jpg">sanity check</a> to see if the leads fit properly in the eye socket. They did. Forging ahead, I <a href="rob_lamp_013.jpg">soldered the switch and resistor</a> into the circuit.<br/>&nbsp;</li>
+
+<li>Oops, I used the wrong resistor. I stripped off the old resistor and resoldered the correct one.<br/>&nbsp;</li>
+
+<li>I soldered the last component, <a href="rob_lamp_014.jpg">the battery clip</a>, into the circuit.<br/>&nbsp;</li>
+
+<li>I popped in a 9-volt and flipped the toggle switch to <a href="rob_lamp_015.jpg">test the LEDs</a> &ndash; nice! Then I put the cardboard part of the circuit back into the R.O.B.&apos;s eye socket to see what the lamp would look like &ndash; <a href="rob_lamp_016.jpg">not bad</a>!<br/>&nbsp;</li>
+
+<li>I attempted <a href="rob_lamp_017.jpg">epoxying the switch to the under-side of the screw hole</a> on top of R.O.B.&apos;s head, but it didn&apos;t hold. Then I reluctantly tried <a href="rob_lamp_018.jpg">hot glue</a>. I didn&apos;t think it was going to be strong enough, but it ended up working well. In retrospect I think this was a good decision because hot glue won&apos;t snap as easily as stiffer bonds like epoxy or super glue. It&apos;s also less invasive for our fragile robot from the 80s.<br/>&nbsp;</li>
+
+<li>I snapped the 9-volt back onto the battery clip, and <a href="rob_lamp_019.jpg">prepared to reattach the head</a>.<br/>&nbsp;</li>
+
+<li><a href="rob_lamp_020.jpg">R.O.B. reassembled</a><br/>&nbsp;</li>
+
+<li><a href="rob_lamp_021.jpg">R.O.B. better than ever</a><br/>&nbsp;</li>
+
+</ol>
+
+<p><img src="http://data.tumblr.com/TIjoXuvpTimcqj2lh34Z4g4do1_400.png" alt="R.O.B. LED Lamp" width="400" height="434"/></p>
+
+<a href="http://psi.cc">psi.cc</a>
+
+</div>
+</body>
+</html>

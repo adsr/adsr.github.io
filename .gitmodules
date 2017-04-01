@@ -1,0 +1,3 @@
+[submodule "parrot"]
+	path = parrot
+	url = https://github.com/adsr/bpm-parrot.git
