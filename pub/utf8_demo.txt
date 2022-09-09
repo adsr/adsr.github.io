@@ -1,0 +1,13 @@
+--2022-09-09 14:34:45--  https://www.cl.cam.ac.uk/~mgk25/ucs/examples/UTF-8-demo.txt
+Resolving www.cl.cam.ac.uk (www.cl.cam.ac.uk)... 128.232.0.20, 2a05:b400:110::80:14
+Connecting to www.cl.cam.ac.uk (www.cl.cam.ac.uk)|128.232.0.20|:443... connected.
+WARNING: The certificate of ‘www.cl.cam.ac.uk’ is not trusted.
+WARNING: The certificate of ‘www.cl.cam.ac.uk’ doesn't have a known issuer.
+HTTP request sent, awaiting response... 200 OK
+Length: 14058 (14K) [text/plain]
+Saving to: ‘UTF-8-demo.txt’
+
+     0K .......... ...                                        100%  152K=0.09s
+
+2022-09-09 14:34:45 (152 KB/s) - ‘UTF-8-demo.txt’ saved [14058/14058]
+
