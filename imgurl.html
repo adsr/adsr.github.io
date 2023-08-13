@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<style>
+img { max-width: 100%; }
+textarea { width: 100%; }
+</style>
+
+<script>
+function render() {
+    var input = document.getElementById('input').value;
+    var output = document.getElementById('output');
+    var html = '';
+    var urls = input.match(/https?:\S+/g);
+    for (var i = 0; urls && i < urls.length; i++) {
+        var url = urls[i];
+        html += '<img src="' + url + '" /><br><a href="' + url + '">' + url + '</a><br><hr>\n';
+    }
+    output.innerHTML = html;
+}
+</script>
+
+<p>
+<textarea id="input" placeholder="List of image URLs" rows="24"></textarea><br>
+<button type="submit" onclick="render()">Render</button><br>
+<hr>
+</p>
+
+<p id="output">
+</p>
+
+</body>
+</html>
